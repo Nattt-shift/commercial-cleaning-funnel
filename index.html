@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SparkPro Commercial Cleaning Services | Free Checklist</title>
+    <meta
+      name="description"
+      content="Download SparkPro's free Commercial Cleaning Checklist and discover how to improve workplace hygiene and impress clients."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / top navigation -->
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="brand">SparkPro Commercial Cleaning Services</div>
+        <a href="#lead-form" class="btn btn-outline">Get the Free Guide</a>
+      </div>
+    </header>
 
+    <main>
+      <!-- Hero section with lead capture form -->
+      <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Trusted by modern offices & facilities</p>
+            <h1>Transform Your Workplace with SparkPro Cleaning</h1>
+            <p class="subheadline">
+              Get a FREE "Commercial Cleaning Checklist" and improve hygiene instantly.
+            </p>
+
+            <div class="trust-badges" aria-label="Trust badges">
+              <span class="badge">🛡️ Insured</span>
+              <span class="badge">👔 Professional</span>
+              <span class="badge">⭐ 5-Star Service</span>
+            </div>
+
+            <a href="#lead-form" class="btn btn-primary btn-large">Download My Free Guide</a>
+          </div>
+
+          <!-- Two-step lead form -->
+          <aside class="form-card" id="lead-form">
+            <h2>Get Your Free Checklist</h2>
+            <p class="form-intro">
+              Complete the quick form to receive your guide and free consultation invite.
+            </p>
+
+            <form id="funnelForm" novalidate>
+              <!-- Step 1 -->
+              <div class="form-step active" data-step="1">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="e.g., Jordan Lee" required />
+
+                <label for="email">Work Email *</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" required />
+
+                <button type="button" id="nextStepBtn" class="btn btn-primary form-btn">Continue</button>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="form-step" data-step="2">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required />
+
+                <label for="company">Company Name *</label>
+                <input type="text" id="company" name="company" placeholder="Your Company" required />
+
+                <div class="form-actions">
+                  <button type="button" id="backStepBtn" class="btn btn-secondary">Back</button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+              <p id="formMessage" class="form-message" aria-live="polite"></p>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Benefits section -->
+      <section class="section benefits" id="benefits">
+        <div class="container">
+          <h2>Why Choose SparkPro Commercial Cleaning?</h2>
+          <ul class="benefits-list">
+            <li><span class="icon">🌱</span> Eco-friendly cleaning products safe for teams and visitors</li>
+            <li><span class="icon">🎓</span> Trained, background-checked cleaning professionals</li>
+            <li><span class="icon">🕒</span> Flexible schedules to avoid disrupting your operations</li>
+            <li><span class="icon">✅</span> Satisfaction guarantee with proactive quality checks</li>
+            <li><span class="icon">📋</span> Clear service reporting for managers and facility leads</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- How it works section -->
+      <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+          <h2>How It Works</h2>
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-number">1</span>
+              <h3>Download Your Free Guide</h3>
+              <p>Get instant access to our proven Commercial Cleaning Checklist.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">2</span>
+              <h3>Receive Expert Consultation</h3>
+              <p>Our team reviews your needs and shares customized recommendations.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">3</span>
+              <h3>Schedule Your Cleaning Service</h3>
+              <p>Choose a convenient schedule and let SparkPro handle the rest.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <h2>What Clients Are Saying</h2>
+          <div class="testimonials-grid">
+            <blockquote>
+              "SparkPro helped us standardize office cleaning and our staff noticed the difference in the first week."
+              <cite>— Amanda Price, Office Manager</cite>
+            </blockquote>
+            <blockquote>
+              "Professional, consistent, and always on time. Their team has become a key part of our facility operations."
+              <cite>— Michael Rivera, CEO</cite>
+            </blockquote>
+            <blockquote>
+              "We needed a dependable partner across multiple floors—SparkPro delivered with quality and accountability."
+              <cite>— Sheila Turner, Facility Manager</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final CTA section -->
+      <section class="section cta-section" id="cta">
+        <div class="container cta-content">
+          <h2>Download Your Free Commercial Cleaning Checklist Today</h2>
+          <p class="urgency-text">
+            Limited spots for free consultation each month.
+            <span id="countdown" aria-live="polite"></span>
+          </p>
+          <a href="#lead-form" class="btn btn-primary btn-large">Download My Free Guide</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> SparkPro Commercial Cleaning Services. All rights reserved.</p>
+        <p class="small">Placeholder hero image located at <code>assets/images/office-placeholder.svg</code>.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
